@@ -1,11 +1,12 @@
 import { CounterProvider } from "./Components/CounterContext";
 import Counter from "./Components/Counter";
+// this code about useContext hooks
 
 function App() {
   return (
     <CounterProvider>
       <Counter />
-      
+
     </CounterProvider>
   );
 }
