@@ -1,0 +1,44 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, rgb(195, 215, 249), rgb(97, 97, 252));
+}
+div {
+    text-align: center;
+    margin-top: 50px;
+  } 
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+   
+  }
+  
+  button:nth-child(1) {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button:nth-child(3) {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  
+  
+  
